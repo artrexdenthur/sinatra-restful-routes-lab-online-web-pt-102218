@@ -7,5 +7,8 @@ class ApplicationController < Sinatra::Base
   get '/recipes/new' do
   
   end
+  
+  post '/recipes' do
+  end
 
 end
