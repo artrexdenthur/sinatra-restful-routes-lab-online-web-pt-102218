@@ -11,6 +11,10 @@ class ApplicationController < Sinatra::Base
   post '/recipes' do
   end
   
+  get '/recipes/:id' do
+    erb :show
+  end
+  
   patch '/recipes/:id' do
     
   end
