@@ -38,5 +38,9 @@ class ApplicationController < Sinatra::Base
     Recipe.find(params[:id]).delete
     redirect '/'
   end
+  
+  get '/error' do
+    erb :error
+  end
 
 end
