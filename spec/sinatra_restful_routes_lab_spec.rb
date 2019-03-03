@@ -154,7 +154,7 @@ describe "Recipe App" do
 
       page.find(:css, "[type=submit]").click
     end
-
+    binding.pry
     it "updates the recipe" do
       expect(page).to have_content("Double chocolate chip cookies")
       expect(page).to have_content("chocolate chips, flour, sugar, butter, cocoa powder")
