@@ -10,5 +10,9 @@ class ApplicationController < Sinatra::Base
   
   post '/recipes' do
   end
+  
+  patch '/recipes/:id' do
+    
+  end
 
 end
